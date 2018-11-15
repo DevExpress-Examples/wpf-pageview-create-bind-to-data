@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataStorage.cs](./CS/PageViewSample/DataStorage.cs)
+* **[MainWindow.xaml](./CS/PageViewSample/MainWindow.xaml)**
+* [MainWindow.xaml.cs](./CS/PageViewSample/MainWindow.xaml.cs)
+<!-- default file list end -->
 # How To: Create a PageView and Populate It with Data
 
 
