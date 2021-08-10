@@ -3,8 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
         xmlns:local="clr-namespace:PageViewSample"
-        Title="MainWindow" Height="822" Width="982"
-        dxc:ThemeManager.ThemeName="Office2013">
+        Title="MainWindow" Height="822" Width="982">
     <Window.DataContext>
         <local:EmployeesData/>
     </Window.DataContext>
