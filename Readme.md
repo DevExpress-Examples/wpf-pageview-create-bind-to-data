@@ -3,18 +3,28 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4652)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+# WPF PageView - Create Page Content Container and Bind It to Data
+
+This example demonstrates how to create a [WPF PageView](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.PageView), bind it to data (`EmployeesData`), and use templates to visualize data items and item headers.
+
+![WPF PageView - Create Page Content Container, DevExpress](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-a-pageview-and-populate-it-with-data-e4652/22.2.2%2B/i/wpf-pageview-devexpress.png)
+
+```xaml
+<dxwui:PageView AnimationType="SlideHorizontal" Header="Page View"
+      ItemsSource="{Binding DataSource}"
+      ItemTemplate="{StaticResource ItemHeaderTemplate}"
+      ContentTemplate="{StaticResource ItemContentTemplate}"/>
+```
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/PageViewSample/MainWindow.xaml)
 * [DataStorage.cs](./CS/PageViewSample/DataStorage.cs)
-* **[MainWindow.xaml](./CS/PageViewSample/MainWindow.xaml)**
 * [MainWindow.xaml.cs](./CS/PageViewSample/MainWindow.xaml.cs)
-<!-- default file list end -->
-# How To: Create a PageView and Populate It with Data
 
 
-<p>This example demonstrates how to create a PageView, bind it to data and use templates to visualize its items and item headers. </p>
+## Documentation
 
-<br/>
-
-
+* [Create a PageView and Populate It with Data (Step-by-Step Tutorial)](https://docs.devexpress.com/WPF/15028/controls-and-libraries/windows-modern-ui/examples/how-to-create-a-pageview-and-populate-it-with-data?p=netframework)
+* [Windows Modern UI for WPF](https://docs.devexpress.com/WPF/15018/controls-and-libraries/windows-modern-ui)
