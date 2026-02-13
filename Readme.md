@@ -30,7 +30,7 @@ This example demonstrates how to create a [WPF PageView](https://docs.devexpress
 * [Create a PageView and Populate It with Data (Step-by-Step Tutorial)](https://docs.devexpress.com/WPF/15028/controls-and-libraries/windows-modern-ui/examples/how-to-create-a-pageview-and-populate-it-with-data?p=netframework)
 * [Windows Modern UI for WPF](https://docs.devexpress.com/WPF/15018/controls-and-libraries/windows-modern-ui)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pageview-create-bind-to-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-pageview-create-bind-to-data&~~~was_helpful=no)
 
